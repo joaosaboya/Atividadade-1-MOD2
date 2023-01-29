@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: gold;
+    border: solid 2px;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-family: 'Unbounded', cursive;
+    font-weight: 400;
+}
+main{
+    padding-bottom: 20vh;
+    background-image: url(/assets/three-luminous-lamps-hang-in-the-dark-from-the-boke-decor-and-atmosphere-concept-1200x675.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 92vh;
+    background-repeat: no-repeat;
+    /*border: solid green 3px;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-family: 'Unbounded', cursive;
+    font-weight: 500;
+    color: white;
+    height: 10vh;
+    /*border: solid green;*/
+}
+section{
+    background-color: white;
+    border-radius: 5%;
+    text-align: start;
+    padding-left: 30px;
+    /*border: solid red ;*/
+    width: 60vw;
+    height: 50vh;
+   font-size: 1.5em;
+}
+div{
+    color: white;
+}
